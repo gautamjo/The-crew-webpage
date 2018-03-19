@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
     <title>The Crew | Developers in Collaboration</title>
 </head>
@@ -13,18 +14,324 @@
 <body>
     <header class="header">
         <div class="header__logo-box">
-            <img src="img/THECREW_logo1_small.png" alt="">
+            <img src="img/THECREW_logo1_small.png" alt="logo" title="The crew logo" class="header__logo">
         </div>
 
         <div class="header__text-box">
             <h1 class="heading-primary">
-                <span class="heading-primary--main">VIRTUAL REALITY</span>
-                <span class="heading-primary--sub">is where immersion happens</span>
+                <span class="heading-primary--main">Prepare</span>
+                <span class="heading-primary--sub">for full vr immersion</span>
             </h1>
 
-            <a href="#section-tours" class="btn btn--white btn--animated">Tailor made VR Packaged</a>
+            <a href="#section-about" class="btn btn--white btn--animated">know more</a>
         </div>
     </header>
+
+    <section class="section-about" id="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+                We render tailor-made tech solutions
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <h3 class="heading-tertiary u-margin-bottom-small">We are The Crew</h3>
+                <p class="paragraph">
+                    We are group of independent developers, designers and writers who have come together in an effort to provide tailor-made services to our clients.
+                </p>
+
+                <h3 class="heading-tertiary u-margin-bottom-small">From VR to AR we've got you covered</h3>
+                <p class="paragraph">
+                    VR has grown through leaps and bounds in recent years and with the advent of AR these techonologies are further being pushed to their extremes. Fortunately, our team has some gifted developers who understand these domains and their turbulently changing
+                    trends. Let us help you bring your AR/VR vision to life.
+                </p>
+
+                <h3 class="heading-tertiary u-margin-bottom-small">Machine-Learning, Data Analysis, Full-stack Development and much more</h3>
+                <p class="paragraph">
+                    Our teams also consists of developers having domain knowledge in Predictive machine learning, Data analytics, Data visualization and Full-stack development to provide you with a range of services that can make your business grow bigger and better.
+                </p>
+
+                <a href="#section-features" class="btn-text">Learn more &rarr;</a>
+            </div>
+            <div class="col-1-of-2">
+                <div class="composition">
+
+                    <img srcset="img/data-viz.jpg 300w, img/data-viz.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1" class="composition__photo composition__photo--p1" src="img/data-viz.jpg">
+
+                    <img srcset="img/webdev.jpg 300w, img/webdev.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2" class="composition__photo composition__photo--p2" src="img/webdev.jpg">
+
+                    <img srcset="img/VR-photo-3.jpg 300w, img/VR-photo-3.jpg 1000w" sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3" class="composition__photo composition__photo--p3" src="img/VR-photo-3.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-features" id="section-features">
+
+        <div class="row">
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-pencil-ruler"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Basic walkaround</h3>
+                    <p class="feature-box__text">
+                        Here is a demo of a simple walkaround demo for Google cardboard. This was created for testing.
+                    </p>
+                    <div class="feature-box__video u-margin-top-small">
+                        <video class="feature-box__video-content" controls controlsList="nodownload">
+                                <source src="img/GamePlay_VR.mp4" type="video/mp4">
+                                <source src="img/GamePlay_VR.mp4" type="video/webm">
+                                Your browser is not supported!
+                            </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-eye"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Oculus VR demo</h3>
+                    <p class="feature-box__text">
+                        An interactive architectural showcase created by Manish, a super talent dev. Oculus/vive exclusive.
+                    </p>
+                    <div class="feature-box__video u-margin-top-small">
+                        <video class="feature-box__video-content" controls controlsList="nodownload">
+                            <source src="img/Virtual Reality Architecture Walkthrough_web_low.mp4" type="video/mp4">
+                            <source src="img/Virtual Reality Architecture Walkthrough_web_low.mp4" type="video/webm">
+                            Your browser is not supported!
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-joypad"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Oculus Game Dev</h3>
+                    <p class="feature-box__text">
+                        An exciting, strategy game developed for Oculus and vive. Created by Zhu, another awesome dev.
+                    </p>
+                    <div class="feature-box__video u-margin-top-small">
+                        <video class="feature-box__video-content" controls controlsList="nodownload">
+                                <source src="img/HTC VIVE_redone.mp4" type="video/mp4">
+                                <source src="img/HTC VIVE_redone.mp4" type="video/webm">
+                                Your browser is not supported!
+                            </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-1-of-4">
+                <div class="feature-box">
+                    <i class="feature-box__icon icon-basic-gear"></i>
+                    <h3 class="heading-tertiary u-margin-bottom-small">GearVR Demo</h3>
+                    <p class="feature-box__text">
+                        An exilerating, head spinning demo of how the game camera works. Tested on GearVR and Samsung S7.
+                    </p>
+                    <div class="feature-box__video u-margin-top-small">
+                        <video class="feature-box__video-content" controls controlsList="nodownload">
+                                <source src="img/360Video.mp4" type="video/mp4">
+                                <source src="img/360Video.mp4" type="video/webm">
+                                Your browser is not supported!
+                            </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-tours" id="section-tours">
+        <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary">
+                VR packages for every need
+            </h2>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-3">
+                <div class="card">
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--1">
+                            &nbsp;
+                        </div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--1">Pro Grade Mobile VR</span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Design to delivery solution</li>
+                                <li>3d model optimisation</li>
+                                <li>Fully interactive application</li>
+                                <li>Scripting, sound and voice-over</li>
+                                <li>Recomended device: GearVR + Samsung S7</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card__side card__side--back card__side--back-1">
+                        <div class="card__cta">
+                            <div class="card__price-box">
+                                <p class="card__price-only">Only</p>
+                                <p class="card__price-value">INR 600,000 + 18% GST</p>
+                            </div>
+                            <a href="#popup" class="btn btn--white">See More!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-1-of-3">
+                <div class="card">
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--2">
+                            &nbsp;
+                        </div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--2">Hyper Immersive PC VR</span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Superior quality graphics</li>
+                                <li>Cutting edge texture mapping</li>
+                                <li>Spacial tracking</li>
+                                <li>In game interactive controllers</li>
+                                <li>Recomended Device: HTC VIVE</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="card__side card__side--back card__side--back-2">
+                        <div class="card__cta">
+                            <div class="card__price-box">
+                                <p class="card__price-only">Only</p>
+                                <p class="card__price-value">INR 925,000 + 18% GST</p>
+                            </div>
+                            <a href="#popup" class="btn btn--white">See More!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-1-of-3">
+                <div class="card">
+                    <div class="card__side card__side--front">
+                        <div class="card__picture card__picture--3">
+                            &nbsp;
+                        </div>
+                        <h4 class="card__heading">
+                            <span class="card__heading-span card__heading-span--3">best of both worlds</span>
+                        </h4>
+                        <div class="card__details">
+                            <ul>
+                                <li>Holistic cross platform Solution</li>
+                                <li>Reusable components</li>
+                                <li>Cost and time efficient</li>
+                                <li>Completion time: 60 days</li>
+                                <li>GearVr/Oculus/Vive ready</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="card__side card__side--back card__side--back-3">
+                        <div class="card__cta">
+                            <div class="card__price-box">
+                                <p class="card__price-only">Only</p>
+                                <p class="card__price-value">INR 925,000 + 18% GST</p>
+                            </div>
+                            <a href="#popup" class="btn btn--white">See More!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+            <a href="img/Budget VR.pdf" class="btn btn--green">Download budget pdf</a>
+        </div>
+    </section>
+
+    <section class="section-book" id="section-book">
+        <div class="row">
+            <div class="book">
+                <div class="book__form">
+                    <form action="#" class="form">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-secondary">
+                                Drop us a line
+                            </h2>
+                        </div>
+                        <div>
+                            <h3 class="heading-tertiary u-margin-bottom-small">Ujjwal Joshi</h3>
+                        </div>
+                        <div>
+                            <h3 class="heading-tertiary u-margin-bottom-small">9560666674</h3>
+                        </div>
+                        <div>
+                            <h3 class="heading-tertiary u-margin-bottom-small">ujjwaljoshi86@gmail.com</h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo-box">
+
+            <picture class="footer__logo">
+                <source srcset="img/THECREW_logo1_small.png 1x, img/THECREW_logo1_small.png 2x" media="(max-width: 37.5em)">
+                <img srcset="img/THECREW_logo1_small.png 1x, img/THECREW_logo1_small.png 2x" alt="Full logo" src="img/THECREW_logo1_small.png">
+            </picture>
+
+
+
+        </div>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#section-about" class="footer__link">Company</a></li>
+                        <li class="footer__item"><a href="#section-book" class="footer__link">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Built by <a href="#" class="footer__link">The Crew.</a> The videos used on the page are the copyright of their respective owners which in this case are the developer/s and/or the client for whom the project was created. Images used
+                    on this page are under creative common license and are downloaded from <a class="footer__link" href="https://www.unsplash.com" target="_blank">unsplash.com</a>,
+                    <a class="footer__link" href="https://www.pexels.com" target="_blank">pexels.com</a> and <a class="footer__link" href="https://pixabay.com/" target="_blank">pixabay.com</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="img/VR-image-2.jpg" alt="Tour photo" class="popup__img">
+                <img src="img/VR-photo-2.jpg" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">Scope of work</h2>
+                <p class="popup__text">
+                    Here is our scope of work for this project: Ideation + concept design of the experience as VR involves domain specific scripting and storyboarding. Application development will primarily be for Gear VR and galaxy s7. Though, it could also be ported to
+                    google cardboard if you so choose. However, our recommendation would be Gear VR as it is the industry leading VR device for mobile at present. Besides that, configuring a controller for navigation and interaction will also lie within
+                    our scope of work. Pre-production scope of work would involve designing UI/UX, scripting narrations, VR specific camera angles and storyboarding. <br> We will also take care of audio post production for all stages
+                    from recording in a studio till the completion of a master recording. It will involve sound design, sound editing, audio mixing, and additional effects. We will also be remodelling and optimising 3d models for compatibility with the
+                    game engine. Furthermore, we will be retexturing, retouching and lighting pre-existing models for realistic look and feel. We will also be creating a VR logo animation for the splash screen. Now lets talk about the PC version. Here
+                    the our entire focus will be to create maximum immersion. Therefore, to acheive that we will have to go back in the app and redevelop a lot of things from scratch. New materials, Tracking system, Controllers, Lighting system (High
+                    Poly Models) and much more. Below are somethings you can expect in the PC version over the mobile version. Superior quality graphics. Smoother transitions. In game interactive controllers configured for Oculus/Vive devices. Fully Spacial
+                    tracking enabling users to stand, walk, lean or move around a space of 3MX3M. Users will be able to interact with anything they want. Kindly download the pdf version of the same from this page.
+
+                </p>
+                <!-- <a href="#" class="btn btn--green">Book now</a> -->
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
